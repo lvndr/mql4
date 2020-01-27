@@ -1,0 +1,30 @@
+(void OnStart()
+  {
+   string cookie=NULL,headers;
+   char post[],result[];
+   int res;
+   string google_url="https://www.google.com/finance";
+   string GrabWeb(string strUrl) {//>4
+   string headers,ret;  
+   char post[],result[];
+   int res, timeout=5000;
+  }
+   int timeout=0000;
+  int WebRequest("GET",google_url,cookie,NULL,timeout,post,0,result,headers);
+
+   const string      method[https],           
+   const string      url,             
+   const string      headers,          
+   int               timeout=10000,       
+   GET           
+   char    result[1],        
+   char result[2]
+   );
+  
+        Alert("Web-Error: ",GetLastError()," (4060 ERR_FUNCTION_NOT_CONFIRMED/Url not allowed)" );
+        return("");
+   } 
+   ret = CharArrayToString(result,0,-1);  
+   return(ret);
+}
+);
